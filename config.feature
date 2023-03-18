@@ -7,39 +7,19 @@
             para depois inserir no carrinho
 
             Contexto:
-            Dado que eu acesse a página para configurar meu poduto
+            Dado que eu acesse a página EBAC-SHOP, para configurar meu poduto
 
-            Cenário: Configurar produto válido
+            Cenário: Configurar produto para inserir no carrinho
             Quando eu selecionar cor, tamanho e quantidade
             Então deve ser inserido no carrinho.
 
             Cenário: Configurar produto inválido
-            Quando eu selecionar cor, tamanho
-            E não selecionar quantidade
+            Quando eu não selecionar os itens obrigatórios
             Então não deve ser inserido no carrinho
-
-            Cenário: Configurar produto inválido
-            Quando eu selecionar cor, quantidade
-            E não selecionar tamanho
-            Então não deve ser inserido no carrinho
-
-            Cenário: Configurar produto inválido
-            Quando eu selecionar tamanho, quantidade
-            E não selecionar cor
-            Então não deve ser inserido no carrinho
-
-            Cenário: Configurar produto inválido
-            Quando eu selecionar tamanho, cor
-            E a quantidade for maior que 10
-            Então não deve ser inserido no carrinho
-
-            Cenário: Limpar configuração de produto
-            Quando eu clicar no botão limpar
-            Então deve voltar ao estado original
 
             Esquema do Cenário: Tela de configurar produto
             Quando eu selecionar o <tamanho>, <cor>, <quantidade>
-            Então deve ser inserido no  <carrinho> com sucesso
+            Então deve ser inserido no  <carrinho>
 
             Exemplos:
             | tamanho | cor       | quantidade | carrinho                                       |
