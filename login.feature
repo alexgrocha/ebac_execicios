@@ -6,15 +6,15 @@
             para visualizar meus pedidos
 
             Contexto:
-            Dado que eu acesse a página de autenticação do EBAC-SHOP
+            Dado que eu acesse a página de autenticação do EBAC-SHOP.
 
             Cenário: Autenticação válida na página EBAC-SHOP
             Quando eu digitiar um usuário e preencher a senha válido
-            Então deve exibir uma mensagem de boas vindas
+            Então deve exibir uma mensagem de boas vindas.
 
             Cenário: Usuário com credenciais inexistentes
             Quando eu digitiar um usuário inexistente e senha inexistente
-            Então deve exibir uma mensagem de alerta
+            Então deve exibir uma mensagem de alerta.
 
             Esquema do Cenário: Autenticar multiplos usuários
             Quando eu digitar o <usuario> e <senha>

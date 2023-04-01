@@ -6,19 +6,19 @@
             para finalizar minha compra
 
             Contexto:
-            Dado que eu acesse a página EBAC-SHOP, quero concluir meu cadastro para realizar compra no site
+            Dado que eu acesse a página EBAC-SHOP, quero concluir meu cadastro para realizar compra no site.
 
             Cenário: Concluir cadastro no site EBAC-SHOP, para concluir compra
             Quando preencha os campos obrigatórios, nome, sobrenome, país, endereço, cidade, cep, estado, telefone, endereço de e-mail
             E marcar a opção criar uma conta
             E clicar em finalizar compra
-            Então deve exibir uma mensagem de "Cadastro realizado com sucesso!"
+            Então deve exibir uma mensagem de "Cadastro realizado com sucesso!".
 
             Cenário: Concluir cadastro no site EBAC-SHOP, sem preencher campos obrigátorios
             Quando não preencha campos obrigatórios, nome, sobrenome, país, endereço, cidade, cep, estado, telefone, endereço de e-mail
             E marcar a opção criar uma conta
             E clicar em finalizar compra
-            Então deve exibir uma mensagem de "Campos obrigatórios não informado!"
+            Então deve exibir uma mensagem de "Campos obrigatórios não informado!".
 
             Esquema do Cenário: Concluir cadastro checkout
             Quando preencher os <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <estado>, <telefone>, <endereco de e-mail> obrigatórios

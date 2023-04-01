@@ -7,17 +7,17 @@
             para depois inserir no carrinho
 
             Contexto:
-            Dado que eu acesse a página EBAC-SHOP, para configurar meu poduto
+            Dado que eu acesse a página EBAC-SHOP, para configurar meu poduto.
 
             Cenário: Configurar produto para inserir no carrinho
             Quando eu selecionar cor, tamanho e quantidade
             E clicar no botão compra
-            Então deve ser inserido no carrinho
+            Então deve ser inserido no carrinho.
 
             Cenário: Configurar produto inválido
             Quando eu não selecionar os itens obrigatórios
             E clicar no botão compra
-            Então não deve ser inserido no carrinho
+            Então não deve ser inserido no carrinho.
 
             Esquema do Cenário: Tela de configurar produto
             Quando eu selecionar o <tamanho>, <cor> e <quantidade>
