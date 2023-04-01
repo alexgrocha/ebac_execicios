@@ -17,7 +17,7 @@
             Cenário: Configurar produto inválido
             Quando eu não selecionar os itens obrigatórios
             E clicar no botão compra
-            Então não deve ser inserido no carrinho
+            Então não deve ser inserido no carrinho.
 
             Esquema do Cenário: Tela de configurar produto
             Quando eu selecionar o <tamanho>, <cor> e <quantidade>

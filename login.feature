@@ -14,7 +14,7 @@
 
             Cenário: Usuário com credenciais inexistentes
             Quando eu digitiar um usuário inexistente e senha inexistente
-            Então deve exibir uma mensagem de alerta
+            Então deve exibir uma mensagem de alerta.
 
             Esquema do Cenário: Autenticar multiplos usuários
             Quando eu digitar o <usuario> e <senha>
