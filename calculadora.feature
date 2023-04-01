@@ -16,7 +16,7 @@
             Esquema do Cenário: Somar de 2 números
             Quando eu digitar o <numero1>
             E <nunumero2>
-            Então deve exibir a <total> de sucesso.
+            Então deve exibir a <total> de sucesso
 
             Exemplos:
             | numero1 | numero2 | total                     |

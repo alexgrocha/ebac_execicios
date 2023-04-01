@@ -18,7 +18,7 @@
             Quando não preencha campos obrigatórios, nome, sobrenome, país, endereço, cidade, cep, estado, telefone, endereço de e-mail
             E marcar a opção criar uma conta
             E clicar em finalizar compra
-            Então deve exibir uma mensagem de "Campos obrigatórios não informado!".
+            Então deve exibir uma mensagem de "Campos obrigatórios não informado!"
 
             Esquema do Cenário: Concluir cadastro checkout
             Quando preencher os <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <estado>, <telefone>, <endereco de e-mail> obrigatórios
