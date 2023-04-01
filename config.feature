@@ -21,7 +21,7 @@
 
             Esquema do Cenário: Tela de configurar produto
             Quando eu selecionar o <tamanho>, <cor> e <quantidade>
-            Então deve ser inserido no  <carrinho>
+            Então deve ser inserido no  <carrinho>.
 
             Exemplos:
             | tamanho | cor       | quantidade | carrinho                                         |

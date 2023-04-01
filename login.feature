@@ -18,7 +18,7 @@
 
             Esquema do Cenário: Autenticar multiplos usuários
             Quando eu digitar o <usuario> e <senha>
-            Então deve exibir a <mensagem>
+            Então deve exibir a <mensagem>.
 
             Exemplos:
             | usuario                  | senha       | mensagem                      |

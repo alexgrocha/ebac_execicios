@@ -24,7 +24,7 @@
             Quando preencher os <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <estado>, <telefone>, <endereco de e-mail> obrigatórios
             E marcar a opção criar uma conta
             E clicar em finalizar compra
-            Então deve exibir a <mensagem>
+            Então deve exibir a <mensagem>.
 
             Exemplos:
             | nome   | sobrenome | pais   | endereco  | cidade    | cep       | estado    | telefone     | endereco de e-mail       | mensagem                                  |
